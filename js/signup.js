@@ -58,7 +58,7 @@ const registerUser = (e) => {
     successMsg("You've successfully signed up.");
     // ===== Pause to return to login page
     setTimeout(function () {
-      window.location.href = "/index.html";
+      window.location.href = "../index.html";
     }, 2000);
   }
 };
