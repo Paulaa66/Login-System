@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login System</title>
+    <!-- ========== Google Fonts ========== -->
+
+    <!-- ========== Bootstrap File ========== -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- ========== Font awesome file ========== -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <!-- ========== Main Css File ========== -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="overflow-hidden">
+    <section
+      class="d-flex justify-content-center align-items-center min-vh-100 overflow-hidden"
+    >
+      <div class="animation-bg"></div>
+      <div class="login-form d-flex justify-content-center align-items-center">
+        <form action="">
+          <h1 class="text-white text-center">Smart Login System</h1>
+          <!-- Name Input -->
+          <div class="name-input input-container">
+            <i class="email-icon fa-solid fa-user"></i>
+            <input
+              type="text"
+              id="userName"
+              name="userName"
+              placeholder=" "
+              required
+              class="form-control"
+            />
+            <label class="text-white-50" for="userName">Name</label>
+          </div>
+          <!-- Email input -->
+          <div class="email-input input-container">
+            <i class="email-icon fa-solid fa-envelope"></i>
+            <input
+              type="email"
+              id="userEmail"
+              name="userEmail"
+              placeholder=" "
+              required
+              class="form-control"
+            />
+            <label class="text-white-50" for="userEmail">Email</label>
+          </div>
+          <!-- Password input -->
+          <div class="pass-input input-container">
+            <i class="pass-icon fa-solid fa-lock"></i>
+            <input
+              type="password"
+              id="userPass"
+              name="userPass"
+              placeholder=" "
+              required
+              class="form-control"
+            />
+            <label class="text-white-50" for="userPass">Password</label>
+          </div>
+          <button
+            id="signupBtn"
+            class="btn btn-primary w-100 rounded-pill mt-4"
+          >
+            Sign Up
+          </button>
+          <div class="register text-white my-3 text-center">
+            <p>
+              You have an account?
+              <a
+                href="../index.html"
+                class="text-decoration-none text-white fw-bold"
+                >Sign in</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- ========== Bootstrap File ========== -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/signup.js"></script>
+  </body>
+</html>
