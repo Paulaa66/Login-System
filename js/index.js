@@ -22,7 +22,8 @@ const loginUser = (e) => {
       localStorage.setItem("UserName", usersContainer[i].name);
       // ===== Pause to return to login page
       setTimeout(function () {
-        window.location.href = "/../pages/home.html";
+        window.location.href =
+          "https://paulaa66.github.io/Login-System/pages/home.html";
       }, 2000);
       return;
     }
